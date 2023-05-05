@@ -20,7 +20,7 @@ window.onload = function() {
     }
     var fingerprint = "```User Agent: " + userAgent + "\nPlatform: " + platform + "\nLanguage: " + language + "\nColor Depth: " + colorDepth + "\nPixel Ratio: " + pixelRatio + "\nCookies Enabled: " + cookiesEnabled + "\nTimezone: " + timeZone + "\n" + "Network Information:\n" + networkInformation + "\nPlugins: " + plugins + "\nMIME Types:\n" + mimeTypes + "```";
     var xhr = new XMLHttpRequest();
-    xhr.open("POST", "https://discord.com/api/webhooks/1067827238332006451/WPvS6MIUYk-uaHxyH9IM5p0oOKMWC4mhJ7gZwizAUwY7JYk_Lp3wdQrWEXH6oZB-qFZx");
+    xhr.open("POST", "https://discord.com/api/webhooks/WEBHOOK");
     var params = JSON.stringify({
         content: fingerprint
     });
